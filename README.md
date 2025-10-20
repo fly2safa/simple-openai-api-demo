@@ -4,7 +4,8 @@ A minimal Python application that demonstrates sending a request to OpenAI's API
 
 ## Features
 
-- Simple, hardcoded message request
+- Initial hardcoded demo message request
+- Interactive user input for custom messages
 - Uses OpenAI's GPT-3.5 Turbo model (legacy, cost-effective)
 - Reads API key from Windows environment variables
 - Clear console output showing request and response
@@ -35,14 +36,16 @@ python simple_openai_demo.py
 
 The script will:
 1. Load your API key from the environment variable
-2. Send a hardcoded message to OpenAI's API
+2. Send a hardcoded demo message to OpenAI's API
 3. Display the response in the console
+4. Prompt you to enter your own message
+5. Send your message and display the response
 
 ## Technical Details
 
 - **Model:** gpt-3.5-turbo (legacy, most cost-effective)
 - **API Key Source:** Windows user environment variable (`OPENAI_API_KEY`)
-- **Message:** Hardcoded in the script for simplicity
+- **Interaction:** Initial hardcoded demo message, followed by user input for custom messages
 
 
 
